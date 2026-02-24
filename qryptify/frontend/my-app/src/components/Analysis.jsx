@@ -413,10 +413,10 @@ const AppHeader = ({ onLogout }) => {
             <div className="flex items-center gap-4 relative">
               {isAdmin && (
                 <>
-                  <Button variant="outline" onClick={viewUsers()}>
+                  <Button variant="outline" onClick={viewUsers}>
                     View Users
                   </Button>
-                  <Button variant="outline" onClick={viewLogs()}>
+                  <Button variant="outline" onClick={viewLogs}>
                     View Logs
                   </Button>
                 </>
